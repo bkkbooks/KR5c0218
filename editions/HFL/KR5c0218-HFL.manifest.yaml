@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0218/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0218/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君養生訣
+  date: '2015-08-29 00:54:37.178000'
+  source:
+    repository: kanripo
+    path: KR5c0218
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0218_000-HFL.yaml, hash: 'sha256:441fbb952f34a1856fd15385869ad09983a53724ba747a4dbde47a3962185cd7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0218_000-HFL.markers.yaml, hash: 'sha256:486dc4a7a8899831772165f9a75655379895cff103f18fb1d47f66a6846a6fb6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0218_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1771
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:09aa9eaa57a430515d7d0cb06e0aef5f01decb9f37989f6d357c97e98231ce33
